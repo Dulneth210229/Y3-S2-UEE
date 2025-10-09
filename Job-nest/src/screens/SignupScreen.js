@@ -7,7 +7,7 @@ import { AuthContext } from '../context/AuthContext';
 
 export default function SignupScreen() {
   const { setUser } = useContext(AuthContext);
-  const [role, setRole] = useState('job_seeker'); // change to 'employer' to test employer flow
+  const [role, setRole] = useState('job_seeker'); 
   const [name, setName] = useState('Saman');
   const [email, setEmail] = useState('saman@example.com');
   const [password, setPassword] = useState('123456');

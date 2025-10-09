@@ -10,6 +10,7 @@ export default function BadgeChip({ badge }) {
     </View>
   );
 }
+
 const styles = StyleSheet.create({
   chip: { paddingVertical: 6, paddingHorizontal: 10, borderRadius: 16, marginRight: 8, marginBottom: 8 },
   txt: { color: '#fff', fontWeight: '600' },
@@ -17,3 +18,6 @@ const styles = StyleSheet.create({
   lvl2: { backgroundColor: '#a0a0a0' },
   lvl3: { backgroundColor: '#d4af37' }
 });
+
+
+
